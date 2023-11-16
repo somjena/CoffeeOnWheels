@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.loginActivity">
+
+    <Button
+        android:id="@+id/loginBtn"
+        style="@android:style/Widget.Button"
+        android:layout_width="156dp"
+        android:layout_height="52dp"
+        android:background="@drawable/orange_button"
+        android:fontFamily="@font/lobster"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.853" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="186dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/lobster"
+        android:text="LOGIN"
+        android:textColor="#df7154"
+        android:textSize="55sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671"
+        tools:layout_editor_absoluteX="0dp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:fontFamily="@font/lobster"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:textColorHint="#464646" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:fontFamily="@font/lobster"
+            android:hint="Password"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:textColorHint="#464646" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signupBtn"
+        style="@android:style/Widget.Button"
+        android:layout_width="157dp"
+        android:layout_height="51dp"
+        android:background="@drawable/orange_button"
+        android:fontFamily="@font/lobster"
+        android:text="SignUp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.851" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="353dp"
+        android:layout_height="197dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.802"
+        app:srcCompat="@drawable/image_banner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
