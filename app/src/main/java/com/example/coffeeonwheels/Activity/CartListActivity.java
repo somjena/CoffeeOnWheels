@@ -1,10 +1,12 @@
-package com.example.coffeeonwheels;
+package com.example.coffeeonwheels.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.coffeeonwheels.R;
+
+public class CartListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
