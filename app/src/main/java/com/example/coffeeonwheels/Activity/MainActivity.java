@@ -12,7 +12,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.coffeeonwheels.Adapter.CategoryAdaptor;
 import com.example.coffeeonwheels.Adapter.PopularAdaptor;
 import com.example.coffeeonwheels.Domain.CategoryDomain;
 import com.example.coffeeonwheels.Domain.foodDomain;
